@@ -10,7 +10,7 @@ classifier = pipeline("sentiment-analysis","distilbert-base-uncased-finetuned-ss
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"I like AI and adore working with NLP and other deep learning algorithms"}
 
 @app.post("/predict/")
 def predict(item: Item):
